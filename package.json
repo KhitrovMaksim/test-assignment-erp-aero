@@ -1,0 +1,57 @@
+{
+  "name": "test-assignment-erp-aero",
+  "version": "1.0.0",
+  "description": "NodeJS, Express (REST, Mysql, CORS, JWT refresh and bearer, files)",
+  "author": "Maksim Khitrov <khitrov.maks@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "api",
+    "cors",
+    "jwt",
+    "refresh",
+    "bearer",
+    "files"
+  ],
+  "homepage": "https://github.com/KhitrovMaksim/test-assignment-erp-aero#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhitrovMaksim/test-assignment-erp-aero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KhitrovMaksim/test-assignment-erp-aero/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint . && prettier -c \"**/*.js\"",
+    "format": "eslint . --fix && prettier --write \"**/*.js\"",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "pino": "^8.10.0",
+    "pino-pretty": "^9.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "chai": "^4.3.7",
+    "eslint": "8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.2",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.20",
+    "prettier": "2.8.3",
+    "sinon": "^15.0.1"
+  }
+}
