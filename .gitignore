@@ -4,6 +4,7 @@ node_modules
 *.pem
 *.done
 .DS_Store
+.env
 
 # Editor directories and files
 .vscode/*

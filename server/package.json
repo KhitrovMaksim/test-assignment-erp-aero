@@ -1,0 +1,25 @@
+{
+  "name": "test-assignment-erp-aero-server",
+  "version": "1.0.0",
+  "description": "Server",
+  "author": "Maksim Khitrov <khitrov.maks@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.16.3",
+    "pino": "^8.10.0",
+    "pino-pretty": "^9.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.20",
+    "sinon": "^15.0.1"
+  }
+}
